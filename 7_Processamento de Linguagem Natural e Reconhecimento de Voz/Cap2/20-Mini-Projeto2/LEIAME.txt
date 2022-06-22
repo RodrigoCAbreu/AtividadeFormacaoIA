@@ -1,0 +1,9 @@
+# Para executar a aplicação:
+
+1- Faça o download do dataset de 500 mil e-mails. Link no manual em pdf do Mini-Projeto.
+
+2- Coloque o arquivo csv na pasta dados.
+
+3- Execute: python mini-projeto2.py
+
+4- Siga as instruções e observe o resultado.
