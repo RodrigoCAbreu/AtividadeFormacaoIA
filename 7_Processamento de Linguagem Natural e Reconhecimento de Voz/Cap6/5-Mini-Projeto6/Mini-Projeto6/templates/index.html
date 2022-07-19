@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="home">
+  <form action="/busca/" method = "POST">
+  	Digite uma palavra para pesquisar no dicionário:
+    <label for="search" style = "color: black"> </label>
+    <input type="text" name="search" id="search" placeholder = "Digite a palavra">
+    <input style = "color: black" type="submit" value="Buscar">
+  </form>
+</div>
+{% endblock %}

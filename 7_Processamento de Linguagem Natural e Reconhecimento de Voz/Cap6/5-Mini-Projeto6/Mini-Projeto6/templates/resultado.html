@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="about">
+  <form action="/busca/" method = "POST">
+     <label for="search" style = "color: black">Palavra: </label>
+     <input type="text" name="search" id="search" placeholder = "Digite a palavra">
+     <input style = "color: black" type="submit" value="Buscar">
+  </form>
+     <p style = "color: black">Resultado: {{bot}}</p>
+</div>
+{% endblock %}
